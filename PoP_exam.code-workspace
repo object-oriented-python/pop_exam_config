@@ -7,5 +7,8 @@
 			"path": "../PoP_venv"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"flake8.importStrategy": "fromEnvironment",
+		"python.terminal.activateEnvInCurrentTerminal": true
+	}
 }
