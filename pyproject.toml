@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pop_exam_config"
+version = "2023.0"
+authors = [
+  { name="David A. Ham", email="david.ham@imperial.ac.uk" },
+]
+description = "Dependencies for Principles of Programming tests and exams"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy", 
+    "ipython",
+    "flake8",
+    "pep8-naming",
+    "flake8-docstrings",
+    "pytest",
+    "pandas",
+    "ipdb",
+    "debugpy"
+]
