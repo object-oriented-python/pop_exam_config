@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+# Fail fast if something goes wrong.
+set -e
 mkdir pop_exam
 pushd pop_exam
 git clone https://github.com/object-oriented-python/pop_exam_config.git
