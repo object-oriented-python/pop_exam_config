@@ -37,7 +37,7 @@ This will:
  - install the `pop_exam_config` Python package, hence installing all the
    required Python packages.
 
-## Deploy the exam paper
+## Deploy the exam paper
 
 Copy the folder containing the exam materials to the name `exam_paper` in the
 `pop_exam` folder.
