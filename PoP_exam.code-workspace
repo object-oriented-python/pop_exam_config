@@ -10,5 +10,8 @@
 	"settings": {
 		"flake8.importStrategy": "fromEnvironment",
 		"python.terminal.activateEnvInCurrentTerminal": true
+	},
+	"extensions": {
+		"recommendations": ["ms-python.python", "ms-python.flake8"]
 	}
 }
